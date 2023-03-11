@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cont">
+    <form class="formadd">
+        <label for="name"></label>
+        <input name="name" type="text" placeholder="name">
+        <label for="phone"></label>
+        <input name="phone" type="text" placeholder="phone">
+        <label for="course"></label>
+        <input name="course" type="text" placeholder="course">
+        <button type="submit">Add</button>
+    </form>
+
+    </div>
+    <table class="table">
+        <thead class="thead">
+            <th>Id</th>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Actions</th>
+        </thead>
+        <tbody class="tbody">
+             
+        </tbody>
+    </table>
+
+
+    <div id="myModaldelete" class="modaldelete">
+        <div class="modal-contentdelete">
+          <button class="delete">Delete</button>
+          <button class="close">Close</button>
+        </div>
+      
+    </div>
+
+
+
+
+
+    <!-- Modal content for edit -->
+    <div id="myModaledit" class="modaledit">
+
+        <div class="modal-contentedit">
+          <span class="closeedit">&times;</span>
+          
+          <form class="formedit" >
+
+            <label for="name" >Name:
+                <input name="name" type="text" placeholder="Name">
+            </label>
+            <label for="phone">Phone:
+                <input name="phone" type="text" placeholder="Phone">
+            </label>
+            <label for="course">Course:
+                <input name="course" type="text" placeholder="Course">
+            </label>
+            <button type="submit">Edit</button>
+            
+          </form>
+        </div>
+      
+    </div>
+
+
+
+     <!-- Modal content for readmi -->
+     <div id="myModalopen" class="modalopen" >
+        <div class="modal-contentopen">
+          <span class="closeopen">&times;</span>
+        <table class="tablereadmi">
+            <thead class="theadreadmi">
+                <th>img</th>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Course</th>
+                </thead>
+            <tbody class="tbodyadd">
+
+            </tbody>
+        </table>
+        </div>
+      
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/JS/main.js" type="module"></script>
+</body>
+</html>

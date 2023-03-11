@@ -1,0 +1,198 @@
+
+/* .cont, button{
+    font-size: 15px;
+} */
+
+.cont{
+    margin: 10px auto ;
+    width: 50%;
+}
+.cont,input{
+    font-size: 17px;
+}
+
+.table th{
+    padding: 20px;
+}.table td{
+    padding: 5px;
+}
+.thead{
+    background-color: rgba(13, 13, 13, 0.796);
+}
+
+.table{
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    border-collapse: collapse;
+    color: white;
+}
+
+.tbody tr{
+    background-color: rgba(1, 1, 1, 0.497);
+}
+.tbodyadd tr{
+    background-color: rgba(1, 1, 1, 0.497);
+}
+
+.tablereadmi th{
+    padding: 20px;
+}.tablereadmi td{
+    padding: 50px;
+}
+.theadreadmi{
+    background-color: rgba(91, 4, 4, 0.796);
+}
+
+.tablereadmi{
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    border-collapse: collapse;
+    color: white;
+}
+
+.tablereadmi tr{
+    background-color: rgba(1, 1, 1, 0.497);
+}
+.tablereadmi tr{
+    background-color: rgba(1, 1, 1, 0.497);
+}
+
+
+
+
+/* delete */
+.modaldelete {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-contentdelete {
+    background-color: #fefefe00;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #cbc8c8;
+    width: 20%; /* Could be more or less, depending on screen size */
+    text-align: center;
+  
+  }
+  
+  /* The Close Button */
+  .closedelete {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .closedelete:hover,
+  .closedelete:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+
+
+
+
+
+  .modaledit {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-contentedit {
+    background-color: #f6f6f6d6;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 38%; /* Could be more or less, depending on screen size */
+    text-align:justify;
+ 
+  }
+  
+  /* The Close Button */
+  .closeedit {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .closeedit:hover,
+  .closeedit:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .formedit input{
+    margin: 5px 0px;
+  }
+
+
+
+
+
+
+
+
+  .modalopen {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-contentopen {
+    /* background-image: url(/img/back-for-readmi.png);
+    background-size: 100%; */
+    background-color: #fefefe00;
+    margin: 100px auto; /* 15% from the top and centered */
+    padding: 20px;
+    /* border: 1px solid #888; */
+    width: 45%; /* Could be more or less, depending on screen size */
+    height: 45%;
+  
+  }
+  
+  /* The Close Button */
+  .closeopen {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .closeopen:hover,
+  .closeopen:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
